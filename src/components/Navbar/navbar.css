@@ -1,0 +1,35 @@
+/* Define the container element as a flex container */
+.container {
+    display: flex;
+    align-items: center; /* Center the items vertically */
+  }
+  .navbar{
+    background-color: #003580;
+  }
+  
+  /* Define the logo element */
+  .logo {
+    /* margin-left: 30px; */
+    margin-right: auto; /* Push the logo to the left */
+  }
+  
+  /* Define the navigation menu element */
+  .navLinks {
+    margin-left: auto; /* Push the navigation menu to the right */
+  
+  }
+  .btn1{
+    color: white;
+    border: 1px solid white;
+  }
+  .btn2{
+    color: #003580;
+    background-color: white;
+  }
+  .navLinks ul {
+    margin-right: 200px;
+  }
+  .navLinks li {
+    display: inline-block;
+    margin-right: 30px;
+  }
